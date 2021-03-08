@@ -446,10 +446,10 @@ img{
 /*========== SKILLS AND LANGUAGES ==========*/
 .skills__content
 {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 0.5fr);
 }
 .skills__content{
-  gap: 0;
+  gap: 0.2;
 }
 .skills__name{
   display: flex;
