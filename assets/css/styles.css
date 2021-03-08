@@ -466,7 +466,7 @@ img{
 }
 .languages__content
 {
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   column-gap: 3.5rem;
 }
 .languages__content{
@@ -475,7 +475,7 @@ img{
 .languages__name{
   display: flex;
   align-items: center;
-  margin-bottom: var(--mb-3);
+  margin-bottom: var(--mb-2);
 }
 .languages__circle{
   display: inline-block;
