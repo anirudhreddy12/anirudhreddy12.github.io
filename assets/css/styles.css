@@ -420,12 +420,22 @@ img{
   height: 16px;
   background-color: var(--text-color-light);
   border-radius: 50%;
-  margin-top: .25rem;
+  margin-top: 4rem;
+}
+.experience__rounder1
+{
+  position: relative;
+  display: block;
+  width: 16px;
+  height: 16px;
+  background-color: var(--text-color-light);
+  border-radius: 50%;
+  margin-top: 0.2rem;
 }
 .experience__line{
   display: block;
   width: 2px;
-  height: 110%;
+  height: 105%;
   background-color: var(--text-color-light);
   transform: translate(7px, 0);
 }
@@ -449,7 +459,7 @@ img{
   grid-template-columns: repeat(3, 1fr);
 }
 .skills__content{
-  gap: 0;
+  gap: 1rem;
 }
 .skills__name{
   display: flex;
