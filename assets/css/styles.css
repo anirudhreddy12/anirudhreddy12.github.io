@@ -435,7 +435,7 @@ img{
 .experience__line{
   display: block;
   width: 2px;
-  height: 90%;
+  height: 102%;
   background-color: var(--text-color-light);
   transform: translate(7px, 0);
 }
@@ -456,15 +456,15 @@ img{
 /*========== SKILLS AND LANGUAGES ==========*/
 .skills__content
 {
-  grid-template-columns: repeat(1, 1fr);
+  grid-template-columns: repeat(3, .5fr);
 }
 .skills__content{
-  gap: 1rem;
+  gap: 3rem;
 }
 .skills__name{
   display: flex;
   align-items: center;
-  margin-bottom: var(--mb-1);
+  margin-bottom: var(--mb-3);
 }
 .skills__circle{
   display: inline-block;
@@ -505,7 +505,7 @@ img{
 .interests__container{
   grid-template-columns: repeat(4,max-content);
   margin-top: var(--mb-2);
-  column-gap: 3.5rem;
+  column-gap: 6rem;
 }
 .interests__content{
   display: flex;
