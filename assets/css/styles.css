@@ -505,7 +505,7 @@ img{
 .interests__container{
   grid-template-columns: repeat(4,max-content);
   margin-top: var(--mb-2);
-  column-gap: 4rem;
+  column-gap: 3.5rem;
 }
 .interests__content{
   display: flex;
